@@ -1,0 +1,44 @@
+body {
+  position: relative;
+  left: 170px;
+  top: 80px;
+}
+
+.gray-box {
+  border: .5px dashed gray;
+  float: left;
+  width: 200px;
+  background-color: #FBFFF0;
+  font-family: 'Barlow', sans-serif;
+  color: gray;
+}
+
+p {
+  clear: left;
+}
+
+.gray-box > img {
+  display: block;
+  margin: 20px;
+  text-align: center;
+}
+
+.gray-box > h3, h6 {
+  text-align: center;
+  margin: 10px;
+}
+
+.gray-box > p {
+  text-align: center;
+}
+
+.gray-box:hover {
+  background-color: white;
+  padding: 10px 0;
+  font-family: 'Slabo 27px', serif;
+  font-style: bold;
+  color: Lightblue;
+  position: relative;
+  bottom: 10px;
+  width: 200px;
+}
